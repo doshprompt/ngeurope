@@ -6,7 +6,7 @@
 
 > State of Angular
 
-**Presenters:** Igor Minar, Brad Green  
+**Presenter(s):** Igor Minar, Brad Green  
 **Slides:** http://goo.gl/70sEsr  
 **Video:** http://youtu.be/c5HSqDLfpW0  
 
@@ -29,8 +29,8 @@
 
 > http://petermorlion.blogspot.com/2014/10/ngeurope-whats-new-in-angular-13.html
 
-**Presenters:** Jeff Cross, Brian Ford  
-**Slides:** http://goo.gl/pNmhAa   
+**Presenter(s):** Jeff Cross, Brian Ford  
+**Slides:** http://goo.gl/pNmhAa  
 **Video:** http://youtu.be/ojMy6m_fcxc  
 
 - Free performance improvements (debugMode, applyAsync, bindOnce i.e. ::prefix)
@@ -42,3 +42,15 @@
 - ngAria for base level accessibility
 - ng-strict-di + ng-annotate instead of ngmin
 - allOrNothing to prevent making invalid http requests
+
+## Ionic Framework
+
+**Presenter(s):** Andrew Joslin  
+**Slides:** N/A 
+**Video:** http://youtu.be/ZjPRj2Vp74U
+
+- material design for Android
+- no planned full tablet support
+- no desktop support due to scrolling, animations weirdness
+- Ionic Creator with drag-and-drop components
+- Ionic Snapshot to compare releases by taking screenshots and using image processing algos
