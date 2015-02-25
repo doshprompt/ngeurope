@@ -1,6 +1,9 @@
 ![ngEurope 2014](https://raw.githubusercontent.com/doshprompt/ngeurope/master/ng-europe-horizontal-on-black.png)
 
-Notes from [ngEurope 2014](http://ngeurope.org/) by [@doshprompt](http://twitter.com/doshprompt)
+Notes from [ngEurope 2014](http://ngeurope.org/) by [@doshprompt](http://twitter.com/doshprompt)  
+
+**Twitter Handle:** [@ngeurope](https://twitter.com/ngeurope)  
+**Twitter Hashtag(s):** [#ngEurope](https://twitter.com/hashtag/ngeurope?src=hash)  
 
 # Day 1
 
