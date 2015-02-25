@@ -49,7 +49,7 @@
 **Slides:** N/A  
 **Video:** http://youtu.be/ZjPRj2Vp74U  
 
-- material design for Android
+- material design for Android coming soon
 - no planned full tablet support
 - no desktop support due to scrolling, animations weirdness
 - Ionic Creator with drag-and-drop components
