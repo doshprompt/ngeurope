@@ -59,9 +59,9 @@
 
 > Under the hood
 
-**Presenter(s):** Victor Berchet, Rado Kirov
-**Slides:** http://goo.gl/ADjgcg
-**Video**: http://youtu.be/RifbDsbfpYA
+**Presenter(s):** Victor Berchet, Rado Kirov  
+**Slides:** http://goo.gl/ADjgcg  
+**Video**: http://youtu.be/RifbDsbfpYA  
 
 Used for some new ideas coming in AngularJS 2.0
 also uses DI
