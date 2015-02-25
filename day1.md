@@ -4,8 +4,8 @@
 
 ## Keynote
 
-**Presenters:** Igor Minar, Brad Green
-**Slides:** http://goo.gl/70sEsr
+**Presenters:** Igor Minar, Brad Green  
+**Slides:** http://goo.gl/70sEsr  
 **Video:** http://youtu.be/c5HSqDLfpW0
 
 - Material Design (angular-material) library baked in for basic responsive, mobile
