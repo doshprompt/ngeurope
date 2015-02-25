@@ -70,3 +70,20 @@
 - Complete Rendering Pipeline (chain fully explained step-by-step)
 - Need to use @Decorator to mimic some angular directive behavior by recreating directive code in Dart’s decorator syntax (e.g. ngClick)
 - Zones + Event Loop + Executor (VmTurnZone)
+
+## Architecture
+
+> Can we learn from architects?
+
+**Presenter(s):** Vojta Jína  
+**Slides:** http://goo.gl/u27Otl  
+**Video:** http://youtu.be/mqlYLbB9O3g  
+**Additional Notes:** http://goo.gl/L4stz1  
+
+- Angular CI Server (on Travis) is not stable - build broken doesn’t necessarily mean code is broken but rather test environment is unreliable
+- Most code we write is crap, not maintainable
+- Writing code is like making buildings
+- Lots of math involved in architecture
+- Principles can be related to writing software (order matters, pure functions with no side effects promotes caching, immutability, since mutation is once again affected by order of code execution)
+- Caching may be expensive, dirty checking altos might be more work than just calling function no matter what, unless you are being careful with shared mutable states
+- Simple examples for formulas for writing more predictable programming
