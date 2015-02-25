@@ -87,3 +87,18 @@
 - Principles can be related to writing software (order matters, pure functions with no side effects promotes caching, immutability, since mutation is once again affected by order of code execution)
 - Caching may be expensive, dirty checking altos might be more work than just calling function no matter what, unless you are being careful with shared mutable states
 - Simple examples for formulas for writing more predictable programming
+
+## Cordova
+
+**Presenter(s):** Julien Bouquillon of Revolunet
+**Slides:** http://goo.gl/qA7l5u
+**Video:** http://youtu.be/yKjgbDEtCgM
+**Demo:** http://revolunet.github.io/angular-ngcordova-demo
+**Code:** https://github.com/revolunet/angular-ngcordova-demo
+
+- OpenSource part of PhoneGap
+- Backed by Google, Adobe etc.
+- Allows embedding of SPA in native browser
+- Adds JS bridge for platform-specific APIs like file browser, GPS etc.
+- Cordova CLI or Node.js module or scripting via hooks
+- ng-cordova plugin system by Ionic to use only JS to call out to some APIs which may be mocked via DI for testing
