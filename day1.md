@@ -63,10 +63,10 @@
 **Slides:** http://goo.gl/ADjgcg  
 **Video**: http://youtu.be/RifbDsbfpYA  
 
-Used for some new ideas coming in AngularJS 2.0
-also uses DI
-HTML —> ViewFactory (compiled into ElementBinders)
-Uses WebComponents (@Component) like Directives thru ComponentFactory
-Complete Rendering Pipeline (chain fully explained step-by-step)
-Need to use @Decorator to mimic some angular directive behavior by recreating directive code in Dart’s decorator syntax (e.g. ngClick)
-Zones + Event Loop + Executor (VmTurnZone)
+- Used for some new ideas coming in AngularJS 2.0
+- also uses DI
+- HTML —> ViewFactory (compiled into ElementBinders)
+- Uses WebComponents (@Component) like Directives thru ComponentFactory
+- Complete Rendering Pipeline (chain fully explained step-by-step)
+- Need to use @Decorator to mimic some angular directive behavior by recreating directive code in Dart’s decorator syntax (e.g. ngClick)
+- Zones + Event Loop + Executor (VmTurnZone)
