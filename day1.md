@@ -46,8 +46,8 @@
 ## Ionic Framework
 
 **Presenter(s):** Andrew Joslin  
-**Slides:** N/A 
-**Video:** http://youtu.be/ZjPRj2Vp74U
+**Slides:** N/A  
+**Video:** http://youtu.be/ZjPRj2Vp74U  
 
 - material design for Android
 - no planned full tablet support
