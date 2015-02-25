@@ -4,6 +4,8 @@
 
 ## Keynote
 
+> State of Angular
+
 **Presenters:** Igor Minar, Brad Green  
 **Slides:** http://goo.gl/70sEsr  
 **Video:** http://youtu.be/c5HSqDLfpW0
