@@ -92,11 +92,11 @@
 
 > Using Angular & Phonegap to build hybrid mobile applications
 
-**Presenter(s):** Julien Bouquillon of Revolunet
-**Slides:** http://goo.gl/qA7l5u
-**Video:** http://youtu.be/yKjgbDEtCgM
-**Demo:** http://revolunet.github.io/angular-ngcordova-demo
-**Code:** https://github.com/revolunet/angular-ngcordova-demo
+**Presenter(s):** Julien Bouquillon of Revolunet  
+**Slides:** http://goo.gl/qA7l5u  
+**Video:** http://youtu.be/yKjgbDEtCgM  
+**Demo:** http://revolunet.github.io/angular-ngcordova-demo  
+**Code:** https://github.com/revolunet/angular-ngcordova-demo  
 
 - OpenSource part of PhoneGap
 - Backed by Google, Adobe etc.
