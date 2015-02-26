@@ -90,6 +90,8 @@
 
 ## Cordova
 
+> Using Angular & Phonegap to build hybrid mobile applications
+
 **Presenter(s):** Julien Bouquillon of Revolunet
 **Slides:** http://goo.gl/qA7l5u
 **Video:** http://youtu.be/yKjgbDEtCgM
