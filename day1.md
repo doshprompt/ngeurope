@@ -157,3 +157,18 @@
   - insecure - client-side code is visible anyway
   - file size - minimal increase (<1KB)
   - slow - work deferred until it’s called, able to turn off and ptor will turn on when it needs to
+
+## New Router
+
+**Presenter(s):** Rob Eisenberg
+**Slides:** http://goo.gl/33Jlb6
+**Video:** http://youtu.be/h1P_Vh4gSQY
+
+- backport to 1.3
+- New Features - Conventions, Navigation Model, Document Title Updates (hash, push changes)
+- Dynamic Loading - ability to load controllers on the fly
+- Child Apps - more than one router in a single app (app router + child router per controller, features managed by teams can own their own router(s), aka nested router or tree of child apps, tabs are completely encapsulated by mapped to the urls generated dynamically, state management and component reuse, parallel controllers)
+- Screen Activation - move from one screen to another with unsaved data (lifecycle:- TO: canActivate > activate, FROM: canDeactivate > deactivate; handles promises for async calls to DB/api before resolving hooks, NavigationCommands - low level control of the router like a redirect if they don’t have rights or you can write your own to take control of the router midway)
+- Navigation Pipeline (can pull out stuff or add more new custom steps like user permissions, validations)
+- Customizations  - Configurations/Conventions, NavigationInstruction (per controller), NavigationContext, History, Viewport
+- demo code - based on an old version of angular 2.0 templating and back port not finished yet
