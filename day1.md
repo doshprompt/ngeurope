@@ -128,3 +128,32 @@
 
 - succeeds _**ngdocs**_
 - built on top of _node.js_
+
+## Protractor
+
+> Testability API
+
+**Presenters:** Julie Ralph, Chirayu Krishnappa  
+**Slides:** http://goo.gl/yWqIzW  
+**Video:** http://youtu.be/XgmUkCISabc  
+
+- e2e testing - everything together to increase confidence in your code
+- reputation for being flaky, hard to debug, painful
+- user is actually typing vs. setting a value directly, requires all elements with interactions to be visible in context
+- node module (written in JS) built on top of a tool called WebDriver (standard)
+- protocol gives us methods for common use-cases
+- separation of config from actual test logic
+- relies on a Selenium Server running somewhere
+- element() returns an elementFinder
+- Goes over Command Queue (Control Flow)
+- does promise chaining behind the scenes but can explicitly use .then() also
+- Best Practice - limit logic in tests to not replicate production code, cover for loops etc.
+- Page-Object Model (POM) - promotes element reuse and allows for changes to be made and effected universally
+- debug with pause()
+- Testability API - agnostic to version of angular, very basic but more tools to come soon
+- findBindings, get/set location, turn off animations (don’t have to account for animation time so tests are fast, testing core functionality), getStable (notify when all pending async operations known to ng are completed, none are pending - expect() uses that so no need to use magic timeouts that may break, and instead automatically wait the exact amount of time, waiting is hidden from you so it’s as though you are writing synchronous tests)
+- don’t want to write debugging code in production
+  - sloppy - Testability is encapsulated in a service
+  - insecure - client-side code is visible anyway
+  - file size - minimal increase (<1KB)
+  - slow - work deferred until it’s called, able to turn off and ptor will turn on when it needs to
