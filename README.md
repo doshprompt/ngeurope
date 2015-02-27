@@ -13,4 +13,4 @@ Link: https://github.com/doshprompt/ngeurope/blob/master/day1.md
 
 Link: https://github.com/doshprompt/ngeurope/blob/master/day2.md
 
-_Are you one of the speakers? Would you like to rephrase something? Or maybe you would also like to contribute and share your experiences as well. Please create an [issue](https://github.com/doshprompt/ngeurope/issues) or fork this repo and submit a [PR](https://github.com/doshprompt/ngeurope/pulls) accordingly._
+_Are you one of the speakers? Would you like to rephrase something? Or maybe you would also like to contribute and share your experiences as well. Please create an [issue](https://github.com/doshprompt/ngeurope/issues) or [fork this repo](https://github.com/doshprompt/ngeurope/fork) and submit a [PR](https://github.com/doshprompt/ngeurope/pulls) accordingly._
