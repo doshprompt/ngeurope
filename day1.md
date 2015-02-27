@@ -126,7 +126,7 @@
 **Slides:** http://goo.gl/6dISbg  
 **Video:** http://youtu.be/PQNROxXajyQ  
 
-- succeeds _**ngdocs**_
+- succeeds __*ngdocs*__
 - built on top of _node.js_
 
 ## Protractor
@@ -160,9 +160,9 @@
 
 ## New Router
 
-**Presenter(s):** Rob Eisenberg
-**Slides:** http://goo.gl/33Jlb6
-**Video:** http://youtu.be/h1P_Vh4gSQY
+**Presenter(s):** Rob Eisenberg  
+**Slides:** http://goo.gl/33Jlb6  
+**Video:** http://youtu.be/h1P_Vh4gSQY  
 
 - backport to 1.3
 - New Features - Conventions, Navigation Model, Document Title Updates (hash, push changes)
@@ -172,3 +172,25 @@
 - Navigation Pipeline (can pull out stuff or add more new custom steps like user permissions, validations)
 - Customizations  - Configurations/Conventions, NavigationInstruction (per controller), NavigationContext, History, Viewport
 - demo code - based on an old version of angular 2.0 templating and back port not finished yet
+
+## angular-ui/bootstrap
+
+> Lessons learned: improving flexibility
+
+**Presenter(s):** Pawel Kozlowski  
+**Slides:** http://goo.gl/3pmMup  
+**Video:** http://youtu.be/tfVA1syv-3o  
+
+- __*Philosophy*__ - lightweight, native directives with ONLY bootstrap CSS, flexible / customizable, tested
+- don’t put markup in javascript, keep them separated (like ng manages templates for directives) so easy to change styling instead of forking and manually gripping and painstakingly changing it
+- preload templates using __*$templateCache*__ since it’s just a unique id
+- customizing functionality using settings/configuration - essential options vs any-and-all configurations
+- __*Controller*__ - extension for your logic but if you dump it all in the linking function then nobody can access it, but if you provide in controller than people can access it, decorate it or modify it. Don’t want to get a PR for every possible scenario
+- think of the controller as the point of extension instead of a bulky one-size-fits-all API
+- __*Aggregation*__ - if multiple directives on angular target the same name, they are all run in order (stacking directives on top of one another) so build from smaller directives to combine them into one bigger powerful directive
+- Sometimes directives are not the best abstraction - `<modal>` vs `$modal` 
+- __*Takeaways*__ - don’t guess, enlarge APIs at your discretion only as and when use-cases emerge and are justified
+- Examples
+  - [Hacking Core Directives in AngularJS](http://briantford.com/blog/angular-hacking-core) blog post by Brian Ford
+  - [Testing Angular Directives](https://github.com/vojtajina/ng-directive-testing) on GitHub by Vojta Jína
+  - Draggable Modal live demo
