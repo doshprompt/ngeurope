@@ -117,3 +117,14 @@
 - [Polymer Component Developement](https://www.polymer-project.org/docs/start/tutorial/intro.html)
 - [Material Design Paper Elements](http://www.google.com/design/spec/material-design/introduction.html)
 - [Topeka SPA from Google I/O 2014](https://polymer-topeka.appspot.com/)
+
+## Dgeni
+
+> Documentation generation on steroids
+
+**Presenter(s):** Pete Bacon Darwin  
+**Slides:** http://goo.gl/6dISbg  
+**Video:** http://youtu.be/PQNROxXajyQ  
+
+- succeeds _**ngdocs**_
+- built on top of _node.js_
