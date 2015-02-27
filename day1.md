@@ -104,3 +104,16 @@
 - Adds JS bridge for platform-specific APIs like file browser, GPS etc.
 - Cordova CLI or Node.js module or scripting via hooks
 - ng-cordova plugin system by Ionic to use only JS to call out to some APIs which may be mocked via DI for testing
+
+## Material Design
+
+> https://www.polymer-project.org/
+
+**Presenter(s):** Thomas Burleson, Max Lynch  
+**Slides:** http://goo.gl/Htbhuw  
+**Video:** http://youtu.be/2qiyhkQVyxE  
+**Demo:** https://material.angularjs.org/  
+
+- [Polymer Component Developement](https://www.polymer-project.org/docs/start/tutorial/intro.html)
+- [Material Design Paper Elements](http://www.google.com/design/spec/material-design/introduction.html)
+- [Topeka SPA from Google I/O 2014](https://polymer-topeka.appspot.com/)
