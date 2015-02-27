@@ -199,7 +199,8 @@
 
 > https://github.com/Swiip/angular-from-scratch
 
-**Presenter(s):** Matthieu Lux
+**Presenter(s):** Matthieu Lux  
+**Video:** http://youtu.be/Mk2WwSxK218  
 
 - simplified implementations — event loop, scope, watchers, digest, apply
 - compiler - directives (ng-bind, ng-model)
