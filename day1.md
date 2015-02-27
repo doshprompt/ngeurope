@@ -194,3 +194,12 @@
   - [Hacking Core Directives in AngularJS](http://briantford.com/blog/angular-hacking-core) blog post by Brian Ford
   - [Testing Angular Directives](https://github.com/vojtajina/ng-directive-testing) on GitHub by Vojta Jína
   - Draggable Modal live demo
+
+## Angular from Scratch
+
+> https://github.com/Swiip/angular-from-scratch
+
+**Presenter(s):** Matthieu Lux
+
+- simplified implementations — event loop, scope, watchers, digest, apply
+- compiler - directives (ng-bind, ng-model)
