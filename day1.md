@@ -204,3 +204,20 @@
 
 - simplified implementations — event loop, scope, watchers, digest, apply
 - compiler - directives (ng-bind, ng-model)
+
+## Responsive Takes Flight
+
+> Building The 1st Responsive Airline Website
+
+**Presenters:** Oliver Dore  
+**Slides:** http://goo.gl/lLqDby  
+**Video:** http://youtu.be/o7I1P9yh8Rc  
+
+- __*Consistent design*__ - everything first so interactions are designed to act the same across devices and sizes and breaks (implementation was mobile first)
+- __*Architecture*__ - responsive, opinionated, but also flexible where it matters
+- _"60% of page weight is images"* - **Paul Irish**_
+- __*Responsive images*__ - resizer to upload new sizes/versions of each icon to a cdn cache the first time that it is requested
+- __*Grunticon*__ - task to make SVGs - use as much as possible for avatars, sprites etc.
+- _"Mo' $watch, mo' problems"_ - use [bindOnce zero watcher bindings](https://github.com/Pasvaz/bindonce) **BUT** redundant post ng-1.3
+- __*BEM Syntax for CSS*__ - (Block, Element, Modifier front-end naming methodology)[http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/]
+- __*Cross-browser testing*__ - using [GhostLab](http://vanamco.com/ghostlab/), [BrowserStack](http://www.browserstack.com/)
