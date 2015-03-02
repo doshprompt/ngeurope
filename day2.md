@@ -1,5 +1,20 @@
 ![ngEurope 2014](https://raw.githubusercontent.com/doshprompt/ngeurope/master/ng-europe-horizontal-on-black.png)
 
+## Keynote
+
+> AtScript
+
+**Presenter(s):** Miško Hevery  
+**Slides:** http://goo.gl/pwk6Pb  
+**Video:** http://youtu.be/lGdnh8QSPPk  
+
+- **NOT** building a language
+- _"Sorry about Angular API"_, will fix it and make it better
+- Why not building a language - already existing infrastructure, tooling, IDE support etc. and will make a new set of mistakes that you are not even aware of while fixing current mistakes, competing standards xkcd comic
+- AtScript will ship with optional type system - RTTS Asserts
+- Checking types at runtime - check the server’s JSON response for correct type(s)
+- AtScript > TypeScript > ES6 > ES5
+
 ## Tooling
 
 > Batarang
