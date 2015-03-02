@@ -17,7 +17,7 @@
   - unused modules (script(s) included but never injected where needed/used)
   - deprecated APIs (global controllers, ng-bind-html-unsafe removed)
   - enforce naming conventions (namespacing prefixes)
-  - Decorators (http://briantford.com/blog/angular-hacking-core)
+  - [Decorators](http://briantford.com/blog/angular-hacking-core)
 - CI - automated code review
 - Roadmap
   - performance hints (expensive watchers etc for smaller datasets before it goes into production with full datasets)
