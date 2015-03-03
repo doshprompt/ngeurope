@@ -15,6 +15,23 @@
 - Checking types at runtime - check the server’s JSON response for correct type(s)
 - AtScript > TypeScript > ES6 > ES5
 
+## ES6
+
+> Traceur
+
+**Presenter(s):** Erik Arvidsson  
+**Slides:** http://goo.gl/OewtFu  
+**Video:** http://youtu.be/iij5RHKi66o  
+
+- Why does ES6 matter - language improvements to JS (better code, maintainability, happy divs)
+- ES6 features - part of all browsers soon
+- Own language extensions - make them part of your own build chain
+- Angular 2.0 language extensions - part of the tool chain
+- Classes
+- Modules
+- Traceur - compiles ES6 and more to ES5, written in ES6
+- Angular Language Extensions - AtScript (makes programming better through angular language extensions thru Type annotations, Type assertions and annotations)
+
 ## Tooling
 
 > Batarang
